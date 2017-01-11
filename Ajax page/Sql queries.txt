@@ -1,0 +1,2 @@
+select email, count(email) cnt from users group by email having count(email)>0 order by cnt desc;
+SELECT email from user where email = 'walkmanprelya@mail.ru'

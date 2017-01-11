@@ -1,0 +1,49 @@
+body{
+	margin: 20px;
+	background: #c1bdba;
+}
+.sbm-btn {
+	border:0;
+	outline:none;
+	border-radius:10px;
+	padding:15px 0;
+	font-size:2rem;
+	font-weight:600;
+	text-transform:uppercase;
+	letter-spacing:.1em;
+	background:#1ab188;
+	color:#ffffff;
+	transition:all.5s ease;
+	-webkit-appearance: none;
+}
+
+.sbm-btn:hover, .sbm-btn:focus {
+    background:#7aebcd;
+	
+}
+
+.add{
+	padding: 40px;
+	margin:40px auto;
+	max-width: 600px;
+	background:#13232f;
+	border-radius:4px;
+	box-shadow:0 4px 10px 4px #13232f;
+}
+
+label, .hint, .glyph{
+	color: #ffffff;
+}
+
+.req{
+	color: #ff0000;
+}
+
+.info {
+	color: #000000;
+	font-weight: bold;
+}
+
+#mail{
+	width: 60%;
+}
