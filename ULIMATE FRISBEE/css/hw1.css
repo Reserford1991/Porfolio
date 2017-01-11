@@ -1,0 +1,136 @@
+
+
+header {
+	background: #c7b39b url(../images/flywheel.jpg);
+	text-align: center;
+	font-size: 150%;
+}
+
+h1{
+	color: #ffffff;
+	font-size: 110%;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+body{
+	padding: 0.3%;
+	margin: 0.8%;
+	font-size: 100%;
+}
+
+h2{
+	font-family: sans-serif, 'Times New Roman', Arial;
+	font-color: #000000;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	width 25%;
+	font-size: 200%;
+	background: #6ED933;
+	border-radius: 50%;
+	padding: 20px;
+	margin: 8px 20px;
+	font-size: 100%;
+	opacity: 0.78;
+}
+
+ .active {
+    color: #f00; /* Цвет активной ссылки */ 
+    background: white;
+   } 
+
+.left {
+	display: inline-block;
+	width: 25%;
+	float: left;
+	background: linear-gradient(to top, #fefcea, #f1da36);
+}
+
+a>img{
+	width: 50%;
+	height: 50%;
+	margin: 15px 80px;
+	border: 3px solid #000000;
+}
+
+.right {
+	display: inline-block;
+	width: 73%;
+	margin-left: 10px;
+	text-align: left;
+	float: right;
+	background-color: #ffffff;
+}
+
+table {
+	margin: 0 auto;
+	width: 80%;
+	font-family: sans-serif, 'Times New Roman', Arial;
+}
+
+table>thead th {
+	color: #3CB6D9;
+	font-size: 110%;
+	font-weight: 400;
+	line-height: 150%;
+	text-transform: uppercase;
+	background: -moz-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    background: -webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+    background: -o-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+    background: -ms-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%);
+    padding: 5px;
+	border-style: solid;
+	border-width: 1px 2px 4px;
+	border-color: #70A0E7;
+	
+}
+
+table>thead th:first-child{
+	border-radius: 5px 0 0 0;
+}
+
+table>thead th:last-child{
+	border-radius: 0 5px 0 0;
+}
+
+tbody>tr {
+	background: -moz-linear-gradient(to top, #fefcea, #f1da36);
+    background: -o-linear-gradient(to top, #fefcea, #f1da36);
+    background: -ms-linear-gradient(to top, #fefcea, #f1da36);
+    background: linear-gradient(to top, #fefcea, #f1da36);
+    padding: 5px;
+    color: #025930;
+	opacity: 0.7;
+	text-shadow: 3px 3px 3px #FEAA4D;
+}
+
+
+tbody>tr:hover {
+	opacity: 1;
+}
+
+tbody>tr td {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #D21E22;
+}
+
+tbody>tr td:first-child{
+	text-align: left;
+}
+
+
+tbody>tr td:nth-child(2), tbody>tr td:nth-child(3){
+	text-align: center;
+}
+
+tbody>tr:last-child td:first-child{
+	border-radius: 0 0 0 10px;
+}
+
+tbody>tr:last-child td:last-child{
+	border-radius: 0 0 10px 0;
+}
